@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<ConfigDoc name="HoneywellLauncher">
+  <Section name="Users Settings" desc="Settings of all users.">
+    <Section name="admin" desc="User Settings.">
+      <Section name="Login" desc="User login settings.">
+        <Key name="USER_NAME" desc="Username length must be less than 50." flags="16">admin</Key>
+        <Key name="PASSWORD" desc="Password length must be more than 6 and less than 50." flags="16">2F7EE768879DDC71B6773D928E22B107AF871A33A72FA881157A1C7BE7740DAF</Key>
+      </Section>
+      <Section name="User Profile" desc="">
+        <Section name="Sound">
+          <Key name="volume_music" desc="Music volume" flags="16">5</Key>
+          <Key name="volume_ring" desc="Notification volume" flags="16">5</Key>
+          <Key name="volume_alarm" desc="Alarm volume" flags="16">6</Key>
+          <Key name="silent_mode" desc="Silent mode 0-Silent 1-Vibrate 2-Normal" flags="16">2</Key>
+          <Key name="ringtone" desc="Phone ringtone" flags="16">content://media/internal/audio/media/61?title=Flutey%20Phone&amp;canonical=1</Key>
+          <Key name="notification_sound" desc="notification sound" flags="16">content://media/internal/audio/media/156?title=Pixie%20Dust&amp;canonical=1</Key>
+          <Key name="vibrate_when_ringing" desc="Vibrate when ring" flags="16">0</Key>
+          <Key name="dtmf_tone" desc="Dial pad touch tones" flags="16">1</Key>
+          <Key name="sound_effects_enabled" desc="Touch sounds" flags="16">1</Key>
+          <Key name="lockscreen_sounds_enabled" desc="Screen lock sound" flags="16">1</Key>
+          <Key name="haptic_feedback_enabled" desc="Vibrate on touch" flags="16">1</Key>
+        </Section>
+        <Section name="Display">
+          <Key name="screen_brightness_mode" desc="Adjust screen display brightness control, 1 for auto, 0 is default." flags="16">0</Key>
+          <Key name="screen_brightness" desc="Adjust screen display brightness, form 30 to 255" flags="16">102</Key>
+          <Key name="wallpaper_user" desc="Wallpaper" flags="16">Normal wallpaper:/storage/emulated/0/Honeywell/Wallpaper/admin.png</Key>
+          <Key name="screen_off_timeout" desc="Adjust the delay before the screen automatically turns off, 15000, 30000, 60000, 120000, 600000, 1800000, -1 (Nerver timeout)" flags="16">60000</Key>
+          <Key name="font_scale" desc="Scaling factor for fonts, value are float. 0.85 = Small, 1.0 = Normal, 1.15 = Large, 1.3 = Huge" flags="16">1.0</Key>
+          <Key name="accelerometer_rotation" desc="Auto rotate screen, 0 or 1." flags="16">0</Key>
+        </Section>
+        <Section name="Honeywell Smart Sensors">
+          <Key name="keep_awake_on_motion_enabled_setting" desc="Wake up device when motion is detected, 0 or 1." flags="16">0</Key>
+          <Key name="wake_up_on_motion_enabled_setting" desc="Keep device on when motion is detected, 0 or 1." flags="16">0</Key>
+          <Key name="face_down_suspend_enabled_setting" desc="Face down suspend, 0 or 1." flags="16">0</Key>
+        </Section>
+      </Section>
+    </Section>
+    <Section name="Profile" desc="User Settings." Unique="true">
+      <Section name="Login" desc="User login settings.">
+        <Key name="USER_NAME" desc="Username length must be less than 50." flags="16">Default</Key>
+        <Key name="PASSWORD" desc="Password length must be more than 6 and less than 50." flags="16">DF8AD31BE31376D60C4BA1A0794F640A02F06895BF123AAF4C909F4C0D8556B9</Key>
+      </Section>
+      <Section name="User Profile" desc="">
+        <Section name="Sound">
+          <Key name="volume_music" desc="Music volume" flags="16">5</Key>
+          <Key name="volume_ring" desc="Notification volume" flags="16">5</Key>
+          <Key name="volume_alarm" desc="Alarm volume" flags="16">6</Key>
+          <Key name="silent_mode" desc="Silent mode 0-Silent 1-Vibrate 2-Normal" flags="16">2</Key>
+          <Key name="ringtone" desc="Phone ringtone" flags="16">content://media/internal/audio/media/61?title=Flutey%20Phone&amp;canonical=1</Key>
+          <Key name="notification_sound" desc="notification sound" flags="16">content://media/internal/audio/media/156?title=Pixie%20Dust&amp;canonical=1</Key>
+          <Key name="vibrate_when_ringing" desc="Vibrate when ring" flags="16">0</Key>
+          <Key name="dtmf_tone" desc="Dial pad touch tones" flags="16">1</Key>
+          <Key name="sound_effects_enabled" desc="Touch sounds" flags="16">1</Key>
+          <Key name="lockscreen_sounds_enabled" desc="Screen lock sound" flags="16">1</Key>
+          <Key name="haptic_feedback_enabled" desc="Vibrate on touch" flags="16">1</Key>
+        </Section>
+        <Section name="Display">
+          <Key name="screen_brightness_mode" desc="Adjust screen display brightness control, 1 for auto, 0 is default." flags="16">0</Key>
+          <Key name="screen_brightness" desc="Adjust screen display brightness, form 30 to 255" flags="16">102</Key>
+          <Key name="wallpaper_user" desc="Wallpaper" flags="16">Normal wallpaper:/storage/emulated/0/Honeywell/Wallpaper/Default.png</Key>
+          <Key name="screen_off_timeout" desc="Adjust the delay before the screen automatically turns off, 15000, 30000, 60000, 120000, 600000, 1800000, -1 (Nerver timeout)" flags="16">60000</Key>
+          <Key name="font_scale" desc="Scaling factor for fonts, value are float. 0.85 = Small, 1.0 = Normal, 1.15 = Large, 1.3 = Huge" flags="16">1.0</Key>
+          <Key name="accelerometer_rotation" desc="Auto rotate screen, 0 or 1." flags="16">0</Key>
+        </Section>
+        <Section name="Honeywell Smart Sensors">
+          <Key name="keep_awake_on_motion_enabled_setting" desc="Wake up device when motion is detected, 0 or 1." flags="16">0</Key>
+          <Key name="wake_up_on_motion_enabled_setting" desc="Keep device on when motion is detected, 0 or 1." flags="16">0</Key>
+          <Key name="face_down_suspend_enabled_setting" desc="Face down suspend, 0 or 1." flags="16">0</Key>
+        </Section>
+      </Section>
+      <Section name="White Apps List">
+        <Key name="White Apps Num" desc="Total white apps number of this user, it must be right." flags="16">7</Key>
+        <Section name="White App Info" Unique="false">
+          <Key name="PACKAGE_NAME" flags="16">com.honeywell.enterprisebrowser</Key>
+          <Key name="APP_NAME" flags="16">Enterprise Browser</Key>
+          <Key name="CLASS_NAME" flags="16">com.honeywell.enterprisebrowser.MainActivity</Key>
+          <Key name="ICON_ID" flags="16">0</Key>
+          <Key name="STATUS" desc="Whether auto run app, false or true." flags="16">false</Key>
+          <Key name="MOTION_RUN" flags="16">false</Key>
+          <Key name="USER_PROFILE" flags="16">-1</Key>
+          <Key name="USER_ID" flags="16">-1</Key>
+          <Key name="NETWORK_STATE" desc="Allow application launch. 0-Always 1-When network connected 2-When active internet connection available" flags="16">0</Key>
+        </Section>
+        <Section name="White App Info" instance="White App Info" instanceName="White App Info2">
+          <Key name="PACKAGE_NAME" flags="16">com.google.android.documentsui</Key>
+          <Key name="APP_NAME" flags="16">Dosyalar</Key>
+          <Key name="CLASS_NAME" flags="16">com.android.documentsui.LauncherActivity</Key>
+          <Key name="ICON_ID" flags="16">0</Key>
+          <Key name="STATUS" desc="Whether auto run app, false or true." flags="16">false</Key>
+          <Key name="MOTION_RUN" flags="16">false</Key>
+          <Key name="USER_PROFILE" flags="16">-1</Key>
+          <Key name="USER_ID" flags="16">-1</Key>
+          <Key name="NETWORK_STATE" desc="Allow application launch. 0-Always 1-When network connected 2-When active internet connection available" flags="16">0</Key>
+        </Section>
+        <Section name="White App Info" instance="White App Info" instanceName="White App Info3">
+          <Key name="PACKAGE_NAME" flags="16">com.cyanogenmod.filemanager</Key>
+          <Key name="APP_NAME" flags="16">Dosya Yöneticisi</Key>
+          <Key name="CLASS_NAME" flags="16">com.cyanogenmod.filemanager.activities.NavigationActivity</Key>
+          <Key name="ICON_ID" flags="16">0</Key>
+          <Key name="STATUS" desc="Whether auto run app, false or true." flags="16">false</Key>
+          <Key name="MOTION_RUN" flags="16">false</Key>
+          <Key name="USER_PROFILE" flags="16">-1</Key>
+          <Key name="USER_ID" flags="16">-1</Key>
+          <Key name="NETWORK_STATE" desc="Allow application launch. 0-Always 1-When network connected 2-When active internet connection available" flags="16">0</Key>
+        </Section>
+        <Section name="White App Info" instance="White App Info" instanceName="White App Info4">
+          <Key name="PACKAGE_NAME" flags="16">com.google.android.gm</Key>
+          <Key name="APP_NAME" flags="16">Gmail</Key>
+          <Key name="CLASS_NAME" flags="16">com.google.android.gm.ConversationListActivityGmail</Key>
+          <Key name="ICON_ID" flags="16">0</Key>
+          <Key name="STATUS" desc="Whether auto run app, false or true." flags="16">false</Key>
+          <Key name="MOTION_RUN" flags="16">false</Key>
+          <Key name="USER_PROFILE" flags="16">-1</Key>
+          <Key name="USER_ID" flags="16">-1</Key>
+          <Key name="NETWORK_STATE" desc="Allow application launch. 0-Always 1-When network connected 2-When active internet connection available" flags="16">0</Key>
+        </Section>
+        <Section name="White App Info" instance="White App Info" instanceName="White App Info5">
+          <Key name="PACKAGE_NAME" flags="16">com.android.vending</Key>
+          <Key name="APP_NAME" flags="16">Play Store</Key>
+          <Key name="CLASS_NAME" flags="16">com.android.vending.AssetBrowserActivity</Key>
+          <Key name="ICON_ID" flags="16">0</Key>
+          <Key name="STATUS" desc="Whether auto run app, false or true." flags="16">false</Key>
+          <Key name="MOTION_RUN" flags="16">false</Key>
+          <Key name="USER_PROFILE" flags="16">-1</Key>
+          <Key name="USER_ID" flags="16">-1</Key>
+          <Key name="NETWORK_STATE" desc="Allow application launch. 0-Always 1-When network connected 2-When active internet connection available" flags="16">0</Key>
+        </Section>
+        <Section name="White App Info" instance="White App Info" instanceName="White App Info6">
+          <Key name="PACKAGE_NAME" flags="16">com.google.android.calendar</Key>
+          <Key name="APP_NAME" flags="16">Takvim</Key>
+          <Key name="CLASS_NAME" flags="16">com.android.calendar.AllInOneActivity</Key>
+          <Key name="ICON_ID" flags="16">0</Key>
+          <Key name="STATUS" desc="Whether auto run app, false or true." flags="16">false</Key>
+          <Key name="MOTION_RUN" flags="16">false</Key>
+          <Key name="USER_PROFILE" flags="16">-1</Key>
+          <Key name="USER_ID" flags="16">-1</Key>
+          <Key name="NETWORK_STATE" desc="Allow application launch. 0-Always 1-When network connected 2-When active internet connection available" flags="16">0</Key>
+        </Section>
+        <Section name="White App Info" instance="White App Info" instanceName="White App Info7">
+          <Key name="PACKAGE_NAME" flags="16">com.android.deskclock</Key>
+          <Key name="APP_NAME" flags="16">Saat</Key>
+          <Key name="CLASS_NAME" flags="16">com.android.deskclock.DeskClock</Key>
+          <Key name="ICON_ID" flags="16">0</Key>
+          <Key name="STATUS" desc="Whether auto run app, false or true." flags="16">false</Key>
+          <Key name="MOTION_RUN" flags="16">false</Key>
+          <Key name="USER_PROFILE" flags="16">-1</Key>
+          <Key name="USER_ID" flags="16">-1</Key>
+          <Key name="NETWORK_STATE" desc="Allow application launch. 0-Always 1-When network connected 2-When active internet connection available" flags="16">0</Key>
+        </Section>
+      </Section>
+      <Section name="UserPermissionManager" desc="">
+        <Key name="_WifiNetwork" desc="Enable or disable Wi-Fi network." flags="16">true</Key>
+        <Key name="_WifiSwitch" desc="Enable or disable Wi-Fi ON/OFF Button for user." flags="16">true</Key>
+        <Key name="_Bluetooth" desc="Enable or disable Bluetooth settings for user" flags="16">true</Key>
+        <Key name="_ChangeProfile" desc="Change profile permission." flags="16">true</Key>
+        <Key name="_Password" desc="Change password permission." flags="16">false</Key>
+        <Key name="_MobileNetwork" desc="Enable or disable mobile network." flags="16">false</Key>
+        <Key name="_SDCard" desc="Enable or disable sdcard." flags="16">false</Key>
+        <Key name="_WifiSettings" desc="Enable or disable Wi-Fi Settings for user." flags="16">false</Key>
+        <Key name="_AutoRun" desc="Permission to auto run apps." flags="16">true</Key>
+        <Key name="_EzConfig" desc="Permission to perform EZConfig barcode scan" flags="16">false</Key>
+      </Section>
+    </Section>
+    <Section name="shared_prefs" desc="Settings in shared preference.">
+      <Section name="OpIntel">
+        <Key name="key_data_collection_enable" desc="Collect Data from Launcher(Includes License and Config update events)" flags="16">false</Key>
+        <Key name="key_user_events_enable" desc="Collect User Events(Login,Logout,Invalid credentials)" flags="16">false</Key>
+        <Key name="key_screen_events_enable" desc="Collect Screen Events(Screen ON and OFF)" flags="16">false</Key>
+      </Section>
+      <Section name="launcher">
+        <Key name="key_show_maintenance_due_alerts" desc="Show maintenance due alerts for users(Configurable for only perpetual license)" flags="16">true</Key>
+        <Key name="key_show_preload_license_alerts" desc="Show one year maintenance alerts for preloaded license" flags="16">true</Key>
+        <Key name="key_show_license_outdated_alerts" desc="Show license outdated alert for users" flags="16">true</Key>
+        <Key name="key_show_license_validity_completed_alerts" desc="Show license validity completed alert for users" flags="16">true</Key>
+        <Key name="key_show_license_grace_period_alerts" desc="Show license grace period alert for users" flags="16">true</Key>
+        <Key name="key_show_alerts_for_admin" desc="Show license alerts for admin(Independent of other license configurations)" flags="16">true</Key>
+        <Key name="Allowed_Launcher_Packages" desc="Allows mentioned Launcher packages inside Honeywell Launcher(Launcher package should be given as packagename,classname)(Separate by ; if there multiple entries)." flags="16"></Key>
+        <Key name="launcher_reset_after_config_update" desc="Set Launcher to login screen after configuration update(If User Mode changes then preference will be true)" flags="16">true</Key>
+        <Key name="key_remove_old_profiles" desc="Remove the existing profiles" flags="16">false</Key>
+        <Key name="Honeywell_Launcher_Status" desc="Enable or disable Honeywell Launcher." flags="16">true</Key>
+        <Key name="pref_key_app_mode" desc="Application Mode 0-Single Application Mode,1-Multiple Apllication Mode." flags="16">1</Key>
+        <Key name="pref_key_user_mode" desc="User Mode 0-Single User Mode,1-Multiple User Mode." flags="16">0</Key>
+        <Key name="key_disable_airplane_mode" desc="No airplane mode setting in power menu." flags="16">true</Key>
+        <Key name="pref_key_disable_volume_mode" desc="Disable volume hard key" flags="16">false</Key>
+        <Key name="motion_enable" desc="" flags="16">false</Key>
+        <Key name="key_dock_mode" desc="Blanking only when docked" flags="16">false</Key>
+        <Key name="key_voice_input" desc="Disable voice input when in motion" flags="16">false</Key>
+        <Key name="key_gps_errant_data_filter" desc="Use some filter to filter out the GPS errant data" flags="16">true</Key>
+        <Key name="key_enable_motion_speed" desc="Enable Speed threshold" flags="16">8</Key>
+        <Key name="key_disable_motion_speed" desc="Disable Speed threshold" flags="16">0</Key>
+        <Key name="key_speed_unit" desc="Speed unit" flags="16">km/h</Key>
+        <Key name="key_enable_motion_mode_time" desc="Enable time threshold" flags="16">10</Key>
+        <Key name="key_disable_motion_mode_time" desc="Disable time threshold" flags="16">10</Key>
+        <Key name="key_gps_lost_timer" desc="GPS lost timer" flags="16">60</Key>
+        <Key name="key_blanking_mode" desc="Blanking mode" flags="16">0</Key>
+        <Key name="image_path" desc="" flags="16"></Key>
+        <Key name="key_logoff_timeout" desc="Auto logoff timer( Range should be 0-500 )" flags="16">0</Key>
+        <Key name="key_wifi_enable" desc="Enable Wifi when user has wifi permission" flags="16">true</Key>
+        <Key name="key_clear_lockscreen_pin" desc="Provide the current Pin or Password to clear the lock screen.This will be applicable for Android P and above OS versions" flags="16"></Key>
+        <Key name="key_screen_lock_enable" desc="Enable existing screen lock(Not supported on EDA70 devices)" flags="16">true</Key>
+        <Key name="key_custom_lock_type" desc="Custom Screen Lock Type(0-None 1-Pin 2-Password)" flags="16">0</Key>
+        <Key name="key_custom_lock_pin_or_password" desc="Custom Lock Pin or Password(Pin will allow only Numeric Inputs)" flags="16">E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855</Key>
+        <Key name="key_mobile_data_enable" desc="Enable the mobile data" flags="16">true</Key>
+        <Key name="key_launcher_notificationbar_enable" desc="Enable launcher Notificationbar for users" flags="16">true</Key>
+        <Key name="cache_system_date_and_time" desc="Enable launcher Notificationbar for users" flags="16">false</Key>
+        <Key name="key_gboard_mode" desc="Keep Gboard option in Soft keyboard" flags="16">false</Key>
+        <Key name="key_default_input_method" desc="Set default input method, e.g. com.android.hsm.sip/.SIPSoftKeyboard" flags="16"></Key>
+        <Key name="sso_enable" desc="" flags="16">false</Key>
+        <Key name="guest_user_enable" desc="" flags="16">false</Key>
+        <Key name="guest_profile" desc="" flags="16"></Key>
+        <Key name="default_profile" desc="" flags="16"></Key>
+        <Key name="sso_signout_timeout" desc="" flags="16">5</Key>
+        <Key name="key_display_mode" desc="Change Display Mode(applicable only for devices with software navigation bar) 0-Normal (default), 1-hide Navigation bar, 2-hide Status bar, 3-hide both (For Android 11 and above OS, 2-hiding status bar support is removed. If value set to 2 it will be considered as default value 0)" flags="16">0</Key>
+        <Key name="key_nfc_mode" desc="Configure NFC and Android Beam(0- Both OFF 1- NFC ON Beam OFF 2 - Both ON)" flags="16">0</Key>
+        <Key name="App_Chooser_Activity_Enable" desc="Enable or disable App Chooser Activity." flags="16">false</Key>
+        <Key name="key_enable_autorun_delay" desc="Enable delay to autorun apps" flags="16">false</Key>
+        <Key name="key_autorun_delay_time" desc="Enter the delay in ms for autorun Apps" flags="16">100</Key>
+      </Section>
+    </Section>
+  </Section>
+  <HHPReserved name="Tool Version">
+    <Key name="EXMVersion" flags="16">1.0.1</Key>
+  </HHPReserved>
+</ConfigDoc>
